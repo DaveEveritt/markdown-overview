@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
+    <!-- For syntax highlighting using highlight.js-->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/custom.css"/>
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'reveal.js/css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="markdown-an-multimarkdown" class="slide level1">
+<h1>Markdown an MultiMarkdown</h1>
+<figure>
+<img src="images/mmd-plain-text.jpg" title="The case for plain text, image of a typewriter (from somewhere MultiMarkdown-related I can&#39;t recall)" alt="typewriter and plain text" /><figcaption>typewriter and plain text</figcaption>
+</figure>
+</section>
+<section id="teaching-innovation-project" class="slide level1">
+<h1>Teaching Innovation Project</h1>
+<p><strong>Aim:</strong> &quot;A standard template and guide for a system to generate module handbooks in .epub and .mobi formats (iPhone/iPad, Android, Kindle), and PDF, from a single plain-text document using free services and software, including <a href="https://leanpub.com/">LeanPub</a>.&quot;<br />
+contact: <a href="mailto:deveritt@dmu.ac.uk">deveritt@dmu.ac.uk</a></p>
+</section>
+<section id="learning-materials" class="slide level1">
+<h1>Learning materials</h1>
+<p>From Markdown, you can generate…</p>
+<ol type="1">
+<li class="fragment">HTML</li>
+<li class="fragment">Word</li>
+<li class="fragment">PDF</li>
+<li class="fragment">e-books</li>
+<li class="fragment">web-based presentations (Powerpoint not accessible/web-friendly)</li>
+</ol>
+<p>…from single or few text-based source document(s), then you can fiddle with the formatting.</p>
+</section>
+<section id="fighting-lock-in" class="slide level1">
+<h1>Fighting lock-in</h1>
+<p>(suitable clickbait graphic here)</p>
+<p><strong>Office suite developers hate this Melton Mowbray lecturer!</strong></p>
+<p><strong>One secret trick Microsoft and Apple don't want you to know!</strong></p>
+</section>
+<section id="querty" class="slide level1">
+<h1>QUERTY</h1>
+<ul>
+<li class="fragment">The <strong>QUERTY</strong> keyboard prevented typists locking up from going too fast, but has become locked-in</li>
+<li class="fragment">The most <strong>popular isn't always the best</strong>. Office suites are from the 80s. The web and semantically-structured text is the ideal delivery platform.</li>
+</ul>
+</section>
+<section id="no-lock-in" class="slide level1">
+<h1>No lock-in!</h1>
+<ul>
+<li class="fragment">Free yourself from applications and their compatibilities!</li>
+<li class="fragment">Your text doesn't depend on <strong>any</strong> proprietary software!</li>
+<li class="fragment">Generate proprietary formats if you must!</li>
+</ul>
+</section>
+<section id="plain-text-formats" class="slide level1">
+<h1>Plain text formats</h1>
+<ul>
+<li class="fragment">Lightweight, small file sizes e.g. vs .ppt</li>
+<li class="fragment">No software version incompatibility (old Word can't open new word)</li>
+<li class="fragment">Future-proof</li>
+<li class="fragment">Machine-readable</li>
+<li class="fragment">Portable</li>
+<li class="fragment">universally accessible</li>
+</ul>
+</section>
+<section id="what-is-markdown" class="slide level1">
+<h1>What is Markdown</h1>
+<ul>
+<li class="fragment">Developed in 2004 by <a href="https://daringfireball.net/projects/markdown/">John Gruber</a></li>
+<li class="fragment">there is an emergng standard: <a href="http://commonmark.org/">CommonMark</a></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<section id="is-easy-to-readwriteedit" class="level2">
+<h2>is easy to read/write/edit</h2>
+<blockquote>
+<p>The aim is to make it easy to read, write, and edit prose. HTML is a publishing format; Markdown is a writing format…</p>
+</blockquote>
+</section>
+<section id="easy-sharing-between-devices-and-people" class="level2">
+<h2>easy sharing between devices and people</h2>
+<blockquote>
+<p>Unlike cumbersome word processing applications, text written in Markdown can be easily shared between computers, mobile phones, and people. It’s quickly becoming the writing standard for academics, scientists, writers… Websites… use Markdown to style… comments.</p>
+</blockquote>
+<p>–<a href="https://daringfireball.net/projects/markdown/syntax">Daring Fireball (John Gruber)</a></p>
+</section>
+<section id="has-a-gentle-learning-curve" class="level2">
+<h2>has a gentle learning curve</h2>
+<blockquote>
+<p>Formatting text in Markdown has a very gentle learning curve. It doesn’t do anything fancy like change the font size, color, or type. All you have control over is the display of the text… making things bold, creating headers, and organizing lists.&quot;</p>
+</blockquote>
+<p>–<a href="http://www.markdowntutorial.com/">MarkDown tutorial</a></p>
+</section>
+</section>
+<section id="multimarkdown" class="slide level1">
+<h1>MultiMarkdown</h1>
+<p>Maintained by <a href="http://fletcherpenney.net/">Fletcher Penney</a></p>
+<p><a href="https://rawgit.com/fletcher/human-markdown-reference/master/">Extends Markdown</a> with tables, footnotes, maths, definition lists… and <a href="http://fletcherpenney.net/multimarkdown/">epub generation</a></p>
+</section>
+<section id="various-markup-languages-exist" class="slide level1">
+<h1>Various markup languages exist:</h1>
+<ul>
+<li class="fragment">Markdown</li>
+<li class="fragment">MultiMarkdown</li>
+<li class="fragment">Textile</li>
+<li class="fragment">reStructuredText</li>
+<li class="fragment">others…</li>
+</ul>
+<p>With converters in every widely-used language</p>
+</section>
+<section id="the-web-and-markdown" class="slide level1">
+<h1>The web and Markdown</h1>
+<ul>
+<li class="fragment">with static site generators, you can use Markdown to maintain a site or a blog</li>
+<li class="fragment">Nanoc, Jekyll, Hakyll…</li>
+</ul>
+<p>See <a href="https://staticsitegenerators.net/">staticSiteGenerators.net</a></p>
+</section>
+<section id="two-tiers-of-use" class="slide level1">
+<h1>Two tiers of use:</h1>
+<p>You can use Markdown quickly without learning much, or deeply by learning a bit more.</p>
+<ul>
+<li class="fragment"><strong>essential:</strong> editing and preparing module handbooks and other documents, Blackboard learning materials, web materials, quick structured content</li>
+<li class="fragment"><strong>advanced:</strong> version controlled with GitHub, continuous development with a permanent URL on GitHub pages, CSS styling for HTML output, e-books…</li>
+</ul>
+</section>
+<section id="why-bother" class="slide level1">
+<h1>Why bother?</h1>
+<p>Why use Markdown?</p>
+<p><a href="https://blog.ghost.org/markdown/">How to Write Faster, Better &amp; Longer: The Ultimate Guide to Markdown</a> —John O'Nolan</p>
+</section>
+<section id="hardcore-questions" class="slide level1">
+<h1>Hardcore questions:</h1>
+<p><strong>Q. Why not just use LaTeX?</strong></p>
+<ul>
+<li class="fragment">A. Markdown can be a quick start for generating a LaTeX document to expand later</li>
+<li class="fragment">A. Markdown is sufficient for many general documents</li>
+<li class="fragment">A. Markdown is already in widespread use</li>
+<li class="fragment">A. simpler markup is more future-proof</li>
+</ul>
+</section>
+<section id="softcore-question" class="slide level1">
+<h1>Softcore question:</h1>
+<p><strong>Q. Why not stick to Office suites?</strong></p>
+<ul>
+<li class="fragment">A. not naturally web-friendly</li>
+<li class="fragment">A. doesn't encourage semantic content</li>
+<li class="fragment">A. Office suites don't easily transport between formats</li>
+<li class="fragment">A. WYSIWYG only on your machine (formatting, fonts)</li>
+</ul>
+</section>
+<section id="advantages" class="slide level1">
+<h1>Advantages</h1>
+<ul>
+<li class="fragment">Highly portable</li>
+<li class="fragment">Future-proof</li>
+<li class="fragment">Semantic structure is accessible and machine-readable (screen readers)</li>
+<li class="fragment">creates semantic and accessible outputs</li>
+<li class="fragment">Multiple options for editing: from plain text to dedicated visual editors</li>
+<li class="fragment">Editable on any device and platform</li>
+<li class="fragment">minimal and writing-focussed</li>
+</ul>
+</section>
+<section id="disadvantages" class="slide level1">
+<h1>Disadvantages</h1>
+<ul>
+<li class="fragment">Not an immediately visual environment</li>
+<li class="fragment">Resistance to change and prior investment in existing skills</li>
+<li class="fragment">Holding to familiar methods and software</li>
+<li class="fragment">The ubiquitous dominance of Microsoft as a <em>primary</em> source</li>
+<li class="fragment">Attachment to personal formatting (colours, fonts...)</li>
+<li class="fragment">There are a few <a href="https://github.com/jgm/CommonMark/wiki/Markdown-Flavors">Markdown flavours</a> although many are similar and some are trivial. There are also attempts to <a href="https://github.com/jgm/CommonMark/wiki/Deployed-Extensions">standardise Markdown variations</a>. However, <strong>Multimarkdown</strong> is likely to have everything most people commonly need.</li>
+</ul>
+</section>
+<section id="markdown-issues" class="slide level1">
+<h1>Markdown issues</h1>
+<ul>
+<li class="fragment">no <em>direct</em> way of adding maths but:
+<ul>
+<li class="fragment">MultiMarkdown has maths -<a href="https://www.mathjax.org/">MathJAX</a> JS library for HTML</li>
+</ul></li>
+<li class="fragment">limited set of tags</li>
+<li class="fragment">no HTML5 semantic tags</li>
+<li class="fragment">some parsers allow inline HTML or attributes</li>
+</ul>
+</section>
+<section id="writing-markdown" class="slide level1">
+<h1>Writing Markdown</h1>
+<section id="most-programming-text-editors" class="level2">
+<h2>most programming text editors</h2>
+<ul>
+<li class="fragment"><a href="https://atom.io/">Atom (free)</a></li>
+<li class="fragment"><a href="https://code.visualstudio.com/">VSCode (free)</a></li>
+</ul>
+</section>
+<section id="dedicated-markdown-editors" class="level2">
+<h2>dedicated Markdown editors…</h2>
+<ul>
+<li class="fragment"><a href="https://ia.net/writer/">iA Writer (paid)</a></li>
+<li class="fragment"><a href="https://writeapp.co/">Write! App (paid)</a></li>
+</ul>
+</section>
+<section id="many-more-free-or-inexpensive" class="level2">
+<h2>Many more free or inexpensive:</h2>
+<ul>
+<li class="fragment"><a href="http://alternativeto.net/software/ia-writer/">free/paid Markdown editors</a></li>
+<li class="fragment"><a href="http://alternativeto.net/software/ia-writer/?platform=windows">free/paid Windows Mardown editors</a></li>
+</ul>
+</section>
+</section>
+<section id="markdown-resources" class="slide level1">
+<h1>Markdown resources</h1>
+<p>Selection in progress, but for now:</p>
+<ul>
+<li class="fragment"><a href="https://github.com/chjj/marked/blob/master/README.md">GitHub marked</a> - parse and compile Markdown in HTML with JavaScript.</li>
+<li class="fragment"><a href="https://help.github.com/articles/organizing-information-with-tables/">GitHub-Flavoured Markdown (GFM): Markdown table syntax</a></li>
+<li class="fragment"><a href="http://dillinger.io">Dillinger: convert Markdown to styled HTML</a></li>
+<li class="fragment"><a href="http://rmarkdown.rstudio.com/revealjs_presentation_format.html">RMarkdown and Reveal for data presentations</a></li>
+<li class="fragment">Brett Terpsta's <a href="http://brettterpstra.com/2013/03/08/new-in-the-markdown-service-tools-in-place-markdown-to-rtf/">Markdown Service Tools</a> - OS X MultiMarkdown install</li>
+<li class="fragment"><a href="http://www.pandoc.org/installing.html">Pandoc: universal document converter</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,         // Display controls in the bottom right corner
+        progress: true,         // Display a presentation progress bar
+        history: true,          // Push each slide change to the browser history
+        center: false,                       // Vertical centering of slides
+        maxScale: 1.5,                  // Bounds for smallest/largest possible content scale
+        slideNumber: false,                // Display the page number of the current slide
+        theme: 'league', // available themes are in /css/theme
+        transition: 'convex', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
