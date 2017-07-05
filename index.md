@@ -218,3 +218,5 @@ Selection in progress, but for now:
 # Acknowledgements
 
 Presentation made with [Reveal.js](http://lab.hakim.se/reveal-js/#/), using [RJSMake](https://github.com/eosrei/rjsmake) to generate the presentation directly from a single Markdown file.
+
+See the [raw Markdown](https://raw.githubusercontent.com/DaveEveritt/markdown-overview/master/index.md) or [the HTML generated from this Markdown](https://github.com/DaveEveritt/markdown-overview/blob/master/index.md). The [source code](https://github.com/DaveEveritt/markdown-overview/) is available for download/cloning, and you can [report any issues](https://github.com/DaveEveritt/markdown-overview/issues).
