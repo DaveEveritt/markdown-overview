@@ -1,6 +1,8 @@
 # Markdown
 
-![Image: a photo of a typewriter and the case for plain text](images/mmd-plain-text.jpg "The case for plain text, image of a typewriter (from somewhere MultiMarkdown-related I can't recall)")
+![](images/mmd-plain-text.jpg "The case for plain text, image of a typewriter (from somewhere MultiMarkdown-related I can't recall)")
+
+<small>NOTE: use the arrow/cursor keys or icons (bottom right) to navigate</small>
 
 
 # Teaching Innovation Project
