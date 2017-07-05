@@ -1,6 +1,7 @@
-# Markdown an MultiMarkdown
+# Markdown
 
-![typewriter and plain text](images/mmd-plain-text.jpg "The case for plain text, image of a typewriter (from somewhere MultiMarkdown-related I can't recall)")
+![Image: a photo of a typewriter and the case for plain text](images/mmd-plain-text.jpg "The case for plain text, image of a typewriter (from somewhere MultiMarkdown-related I can't recall)")
+
 
 # Teaching Innovation Project
 
